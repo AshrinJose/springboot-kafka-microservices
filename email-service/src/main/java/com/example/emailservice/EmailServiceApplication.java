@@ -1,13 +1,13 @@
-package com.example.base_domains;
+package com.example.emailservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BaseDomainsApplication {
+public class EmailServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BaseDomainsApplication.class, args);
+		SpringApplication.run(EmailServiceApplication.class, args);
 	}
 
 }

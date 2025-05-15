@@ -1,4 +1,4 @@
-package com.example.base_domains.dto;
+package com.example.basedomains.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -10,5 +10,5 @@ import lombok.NoArgsConstructor;
 public class OrderEvent {
     private String message;
     private String status;
-    private String order;
+    private Order order;
 }
