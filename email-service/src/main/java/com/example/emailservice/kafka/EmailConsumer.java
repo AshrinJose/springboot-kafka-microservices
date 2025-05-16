@@ -7,8 +7,8 @@ import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;
 
 @Service
-public class OrderConsumer {
-    private static final Logger LOGGER = LoggerFactory.getLogger(OrderConsumer.class);
+public class EmailConsumer {
+    private static final Logger LOGGER = LoggerFactory.getLogger(EmailConsumer.class);
 
     @KafkaListener(
             topics = "${spring.kafka.topic.name}",
