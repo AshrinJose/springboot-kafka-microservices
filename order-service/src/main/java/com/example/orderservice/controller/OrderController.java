@@ -28,6 +28,7 @@ public class OrderController {
         "price": 100000
          */
         order.setOrderId(UUID.randomUUID().toString());
+
         OrderEvent orderEvent = new OrderEvent();
         orderEvent.setStatus("PENDING");
         orderEvent.setMessage("Order status is in pending state");
